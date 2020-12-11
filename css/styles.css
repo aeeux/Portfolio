@@ -7,13 +7,13 @@
     --font-semi: 600;
 }
 
-/* colour */
+/* Variable CSS - colour */
 :root
 {
     --first-color: #4070F4;
     --second-color: #343434;
 }
-/* Typografi */
+/* Variable CSS - Typographi */
 :root
 {
     --body-font: 'Montserrat', sans-serif;
@@ -29,7 +29,7 @@
     --normal-font-size: 1rem;
 }
 }
-/* Margin */
+/* Variable CSS - Margin */
 :root
 {
     --mb-1: 0.5rem;
@@ -39,7 +39,7 @@
     --mb-5: 2.5rem;
     --mb-6: 3rem;
 }
-/* z-index */
+/* Variable CSS - z-index */
 :root
 {
     --z-back: -10;
@@ -47,7 +47,7 @@
     --z-tooltip: 10;
     --z-fixed: 100;
 }
-/* box */
+/* General */
 *,::before,::after
 {
     box-sizing: border-box;
@@ -150,10 +150,10 @@ img
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 80%;
+        width: 40%;
         height: 100%;
         padding: 2rem;
-        background-color: var(--second-color);
+        background-color: #343434ef;
         transition: .5s;
     }
 }
@@ -542,7 +542,7 @@ img
     }
 }
 
-/* Project Pages */
+/* Portfolio */
 
 .portfolio_container
 {
